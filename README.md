@@ -18,3 +18,11 @@ BOT TOKEN SCOPES:
 USER TOKEN SCOPES:
 - channels:history :
   View messages and other content in a user’s public channels
+
+## Sample script run command 
+```shell script
+SLACK_TOKEN='xoxb-abc-xyz-123' python3 scraper.py "@here" "Nov 28, 2020 @ 06:40:00 UTC" "Nov 28, 2020 @ 07:13:00 UTC"
+```
+
+### Token
+You can get slack token from app details under Signing Secret of the app
